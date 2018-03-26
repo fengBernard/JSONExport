@@ -161,10 +161,10 @@
     "modelEnd": "@end",
     "instanceVarDefinition": "@property (nonatomic, strong) <!VarType!> * <!VarName!>;\n",
     "utilityMethodSignatures": [
-      "-(NSDictionary *)toDictionary;\n"
+      ""
     ],
     "constructorSignatures": [
-      "-(instancetype)initWithDictionary:(NSDictionary *)dictionary;\n"
+      ""
     ],
     "typesNeedSpecialDefinition": [
       "NSInteger",

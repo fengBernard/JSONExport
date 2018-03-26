@@ -97,7 +97,7 @@ class FileRepresenter{
         appendCopyrights()
         appendStaticImports()
         appendHeaderFileImport()
-        appendConstVarDefinition()
+//        appendConstVarDefinition()
         appendCustomImports()
         //start the model defination
         var definition = ""
@@ -114,10 +114,10 @@ class FileRepresenter{
         //start the model content body
         fileContent += "\(lang.modelStart)"
         
-        appendProperties()
-        appendSettersAndGetters()
-        appendInitializers()
-        appendUtilityMethods()
+//        appendProperties()
+//        appendSettersAndGetters()
+//        appendInitializers()
+//        appendUtilityMethods()
         fileContent = fileContent.replacingOccurrences(of: lowerCaseModelName, with:className.lowercaseFirstChar())
         fileContent = fileContent.replacingOccurrences(of: modelName, with:className)
         fileContent += lang.modelEnd
